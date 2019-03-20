@@ -1,0 +1,51 @@
+<!-- When the game starts, the player will choose a character by clicking on the fighter's picture. 
+The player will fight as that character for the rest of the game. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jims Collector</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" type="text/css"href="./assets/css/reset.css">  
+  <link rel="stylesheet" type="text/css"href="./assets/css/style.css">
+</head>
+
+
+<body>
+  <header><h1> Jims Collector! </h1></header>
+    <div class= "mylines">
+      <h6>You will be given a random number at the start of the game.</h6>
+      <h6>There are four Jims below. By clicking on a jim you will add a specfic amount of points to your tatal score.</h6>
+      <h6>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h6>
+      <h6>The value of each jim is hiddin from you until you click on it.</h6>
+      <h6>Each time when the game starts, the game will change the value of each jim.</h6>
+    </div>
+    <div class ="My Jims">
+        
+        <div class="jim" id="red"><img src = "./assets/images/red.jpg"> </div>
+        <div class="jim" id="pink"><img src ="./assets/images/Pink.jpg"> </div>
+        <div class="jim" id="blue"><img src ="./assets/images/blue.jpg"> </div>
+        <div class="jim" id="yellow"><img src ="./assets/images/yallow.jpg"></div>
+    </div>
+
+    <div class = "computerRandomNumber"></div>
+    <h6>Your total score is:</h6>
+    <div class = "sumOfRandomNum"></div>
+
+    <div class = "counters">
+      <h6>Wins:</h6><div class id = "wins"></div>
+      <h6>Losses:</h6><div class id ="loses"></div>
+    </div>
+
+        
+    <script src="./assets/javascript/game.js"></script>  
+</body>
+
+</html>
