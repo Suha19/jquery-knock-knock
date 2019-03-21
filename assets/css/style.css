@@ -1,34 +1,46 @@
-/* body { 
-    background-image: url(./../images/bg.jpg);
+body { 
+    /* background-image: url(./../images/bg.jpg); */
+    background-color: rgb(245, 245, 186);
     background-repeat: no-repeat, repeat;
     background-size: 100% 100%;
     overflow: auto;
     z-index: -1px; 
-    color: aliceblue;
+   
     
   }
-  .container{
+   .mylines{
     background-repeat: no-repeat, repeat;
     margin: auto;
-
+    background-color: rgb(184, 97, 97);
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+    z-index: -1px; 
+    width: 700px;
+    float: left;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
   }
+
+  .jim{margin:10px;}
+ 
  h1 {
   
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    line-height: 3em;
-    color: white;
+  
+    color: black;
    
   }
-  #Attack{  
-        text-align: left;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    */
+  h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+
+  }
+  
     img {
       width: 100px;
       height: 100px;
